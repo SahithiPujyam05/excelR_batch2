@@ -15,7 +15,7 @@ public class demo7 {
         System.out.println("Name: " + Name);
         System.out.println("Phone Number: " + PhNo);
         System.out.println("Age: " + Age);
-        System.out.println("Welcome !! ");
+        System.out.println("Hello " + Name + " Welcome !! " + "Your age is " + Age + " and your PhNo is " + PhNo);
         sc.close();
     }
 }
