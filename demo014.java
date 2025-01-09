@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class demo014 {
     public static void main(String[] args) {
-        // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter the number of minutes
@@ -20,10 +19,7 @@ public class demo014 {
         long remainingMinutes = minutes % minutesInYear;
         long days = remainingMinutes / minutesInDay;
 
-        // Display the result
         System.out.println(minutes + " minutes is approximately " + years + " years and " + days + " days.");
-
-        // Close the scanner
         scanner.close();
     }
 }
