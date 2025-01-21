@@ -1,12 +1,12 @@
 import java.util.HashSet;
 
-class HashSetDemo1 {
-    void HSetMethod() {
+class HashSetDemo2 {
+    void HashSetMethod() {
         // We can add any type of element here...
         HashSet hashSet = new HashSet();
-        hashSet.add(101);
+        hashSet.add("MRUH");
         hashSet.add("SAHITHI");
-        hashSet.add(9999.9);
+        hashSet.add("GROUP4");
         System.out.println(hashSet);
 
         // we can use Object class to read any type of elements
@@ -16,9 +16,9 @@ class HashSetDemo1 {
     }
 }
 
-public class demo031 {
+public class demo032 {
     public static void main(String[] args) {
-        HashSetDemo1 obj = new HashSetDemo1();
-        obj.HSetMethod();
+        HashSetDemo2 obj = new HashSetDemo2();
+        obj.HashSetMethod();
     }
 }
