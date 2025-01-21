@@ -19,7 +19,6 @@ class ArrayListCode {
 }
 
 public class demo030 {
-
     public static void main(String[] args) {
         ArrayListCode obj = new ArrayListCode();
         obj.arrayListMethod();
